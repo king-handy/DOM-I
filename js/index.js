@@ -55,3 +55,4 @@ ctaImage.src = 'img/header-img.png'
 const middleImage = document.getElementById('middle-img')
 middleImage.src = 'img/mid-page-accent.jpg'
 
+
