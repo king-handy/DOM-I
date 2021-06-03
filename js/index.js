@@ -49,3 +49,9 @@ nav[3].innerText = 'Features'
 nav[4].innerText = 'About'
 nav[5].innerText = 'Contact'
 
+const ctaImage = document.getElementById('cta-img')
+ctaImage.src = 'img/header-img.png'
+
+const middleImage = document.getElementById('middle-img')
+middleImage.src = 'img/mid-page-accent.jpg'
+
