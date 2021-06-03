@@ -41,18 +41,29 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
-const nav = document.getElementsByTagName('a')
-nav[0].innerText = 'Services'
-nav[1].innerText = 'Product'
-nav[2].innerText = 'Vision'
-nav[3].innerText = 'Features'
-nav[4].innerText = 'About'
-nav[5].innerText = 'Contact'
+const navItem = document.getElementsByTagName('a')
+navItem[0].innerText = 'Services'
+navItem[1].innerText = 'Product'
+navItem[2].innerText = 'Vision'
+navItem[3].innerText = 'Features'
+navItem[4].innerText = 'About'
+navItem[5].innerText = 'Contact'
 
+const navEl = document.querySelector('nav')
+const newNav = document.createElement('a')
+newNav.textContent = 'Home'
+newNav.href = '#'
+const newNav2 = document.createElement('a')
+newNav2.textContent = 'FAQ'
+newNav2.href = '#'
+navEl.prepend(newNav)
+navEl.appendChild(newNav2)
+
+//
 const ctaImage = document.getElementById('cta-img')
 ctaImage.src = 'img/header-img.png'
 
 const middleImage = document.getElementById('middle-img')
 middleImage.src = 'img/mid-page-accent.jpg'
-
+//
 
