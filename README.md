@@ -39,7 +39,7 @@ You have been provided a [JSON object](js/index.js) with all the necessary data 
 
 * [ ] Change the color of the navigation text to be green.
 * [x] Utilize `.appendChild()` and `.prepend()` to add two new items to the navigation system. You can call them whatever you want.
-* [ ] Check your work by looking at the [original html](original.html) in the browser
+* [x] Check your work by looking at the [original html](original.html) in the browser
 
 ### Task 3: Stretch
 
@@ -54,4 +54,4 @@ This project is heavier on logic but employs some DOM manipulation to achieve it
 
 **Follow these steps for completing your project.**
 
-* [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` (student's  Repo). **Please don't merge your own pull request**
+* [x] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` (student's  Repo). **Please don't merge your own pull request**
